@@ -1,0 +1,289 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.login-box, .register-box {
+    margin: 2% auto;
+}
+
+.login-logo a, .register-logo a {
+    color: #fff;
+}
+
+.login-box > a {
+    color: white;
+    margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+	display: table;
+  }
+}
+
+.quick-tasks .col-xs-6 .small-box h3 {
+    font-size: 32px;
+}
+
+.timeline > li {
+    height: 35px;
+}
+
+.settings .timeline > li {
+    height: auto;
+}
+
+.timeline-header > input {
+    max-width: 60%;
+	width: 100%;
+}
+
+section.home-schedule .timeline > li i:hover {
+    border: 2px solid black;
+}
+
+.home-schedule .row-horizon.schedule {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.date-lines {
+    left: 0;
+    position: absolute;
+    top: 75px;
+    width: 98%;
+}
+.date-lines .date-line hr {
+    margin-left: -12px;
+    margin-top: 10px;
+    width: 95%;
+}
+.date-lines .date-line .date {
+    color: #888;
+    float: left;
+    font-size: 10px;
+    font-weight: 600;
+    margin-left: 2px;
+    margin-top: -7px;
+    width: 40px;
+}
+.date-lines .date-line {
+    height: 10px;
+    margin-top: 40px;
+}
+.todo-list .tools .time {
+    font-size: 12px;
+    margin-right: 5px;
+}
+#weigh .info-box-icon img {
+    max-width: 80%; 
+	margin:10px auto; 
+	border: 3px solid;
+}
+#butcher .table td img {
+   max-width: 40px;
+   border: 2px solid;
+}
+
+.pedigree .info-box-text {
+    font-size: 11px;
+}
+.pedigree .info-box-content.no-image {
+	margin-left:0;
+}
+.pedigree .info-box-number {
+    font-size: 15px;
+}
+.pedigree .info-box-text .notes {
+    text-transform: none;
+    white-space: normal;
+	width:80%;
+}
+.pedigree .info-box.buck {
+    margin-bottom: 5px;
+}
+.pedigree .box-footer {
+    color: #000;
+}
+
+.pedigree .half {
+    height: 50px;
+}
+.pedigree .whole {
+    height: 100px;
+}
+.row.pedigree {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+#wizard__breeders .row-horizon .table th {
+    min-width: 100px;
+}
+
+@media  (max-width: 480px) {
+	.widget-user .widget-user-image {
+		top: 95px;
+	}
+	.widget-user .widget-user-username {
+		font-size: 20px;
+	}
+	.widget-user .box-footer .description-block > .description-header {
+		font-size: 14px;
+	}
+	.widget-user .box-footer .description-block > .description-text {
+		font-size: 12px;
+	}
+	
+}
+
+.bred-icon {
+    background: #ca195a none repeat scroll 0 0;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+
+.box-widget.widget-user .bred-icon {
+    font-size: 18px;
+    height: 25px;
+    left: -10px;
+    top: -10px;
+    width: 25px;
+}
+
+.box-body.box-profile .bred-icon {
+    font-size: 23px;
+    height: 30px;
+    left: 5px;
+    top: 5px;
+    width: 30px;
+}
+ 
+
+.breeder.widget-user-image > img {
+    width: 130px;
+}
+.litter.widget-user-image .img-circle {
+    width: 110px;
+}
+
+.breeder.profile-user-img {
+     width: 150px;
+     }
+.litter.profile-user-img {
+     width: 130px;
+     }
+
+.breeder.widget-user-image {
+	 margin-left: -65px;
+	 top: 45px;
+	 z-index: 10;
+     }
+.litter.widget-user-image {
+	margin-left: -110px;
+	top: 55px;
+	z-index: 10;
+     }
+
+.input-white {
+    background-color: white !important;
+}
+
+.widget-user .widget-user-username {
+	overflow: hidden;
+	white-space: nowrap;
+}
+	 
+@media only screen and (max-width: 400px) {
+    .litter.widget-user-image {
+        margin-left: -70px;
+		top: 65px;
+    }
+	.litter.widget-user-image .img-circle {
+    	width: 100px;
+	}
+	.widget-user-image.breeder > img {
+		width: 120px;
+		float: right;
+	}
+	.widget-user-image.breeder {
+	   top: 60px;
+	 }
+	 .widget-user .widget-user-image.breeder {
+		 right: 5%;
+	 }
+	 .widget-user .widget-user-desc {
+		width: 150px;
+	}
+	.widget-user .widget-user-username {
+		max-width: 248px;
+	}
+}
+@media only screen and (min-width: 401px) and (max-width: 480px) {
+     .widget-user .widget-user-username {
+		max-width: 330px;
+	}
+	.litter.widget-user-image {
+		top: 65px;
+    }
+
+}
+@media  (max-width: 480px) {
+    	.widget-user .widget-user-header {
+        		height: 150px;
+        }
+    }
+@media only screen and (min-width: 992px) and (max-width: 1100px) {
+        .litter.widget-user-image {
+            margin-left: -70px;
+        }
+		.widget-user .widget-user-username {
+		  max-width: 290px;
+	  }
+
+    }
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+        .litter.widget-user-image {
+            margin-left: -70px;
+        }
+    	.widget-user .widget-user-username {
+         	font-size: 22px;
+			max-width: 260px;
+         	}
+		.widget-user .widget-user-desc {
+			width: 150px;
+		}
+    	.widget-user .box-footer .description-block > .description-header {
+         		font-size: 14px;
+         	}
+    	.widget-user .box-footer .description-block > .description-text {
+         		font-size: 12px;
+         }
+		
+		.widget-user-image.breeder > img {
+		width: 120px;
+		float: right;
+		}
+		.widget-user-image.breeder {
+		   top: 55px;
+		 }
+		.widget-user .widget-user-image.breeder {
+			 right: 5%;
+		 }
+		 .widget-user .widget-user-header {
+        		height: 140px;
+        }
+
+    }
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+	.widget-user .widget-user-username {
+		max-width: 300px;
+	}
+}
+
+.prefix 
+{
+    font-size: 12px;
+}

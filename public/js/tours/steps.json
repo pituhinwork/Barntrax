@@ -1,0 +1,46 @@
+{
+    "dashboard": [
+        {
+            "intro": "<p class='text-center'><strong>Welcome to Hutch!</strong></p><p>This tour will guide you through Hutch's main features. Click the Next button below to begin.</p>"
+        },
+        {
+            "element": "#step1",
+            "intro": "<strong>Schedule a Breed Chain</strong><p>Schedule a series of events that begins with a breed, and continues through birth and other tasks for the resulting litter.</p>"
+        },
+        {
+            "element": "#step2",
+            "intro": "<strong>Report a Birth</strong><p>When a litter is born, report the Birth here to create the litter record and events, like weigh and butcher dates.</p>"
+        },
+        {
+            "element": "#step3",
+            "intro": "<strong>Record Litter Weights</strong><p>Track litter performance by recording kit weights. The first time a litter is weighed, you can enter kit numbers, colors, and sex.</p>"
+        },
+        {
+            "element": "#step4",
+            "intro": "<strong>Report a Butcher</strong><p>When it is time to butcher a litter, record the event here. The system will track butcher weights, age, and other information to judge litter performance.</p>"
+        },
+        {
+            "element": "#step5",
+            "intro": "<strong>Add a Task</strong><p>Create a task in your schedule to track events or things to do in your rabbitry.</p>",
+            "position": "top"
+        },
+        {
+            "element": "#step6",
+            "intro": "<strong>Sync Schedule</strong><p>Sync your Hutch Schedule with external calendar apps. This allows you to get notifications and updates automatically about events on your Hutch Schedule.</p>",
+            "position": "left"
+        },
+        {
+            "element": "#step7",
+            "intro": "<strong>Notifications</strong><p>See upcoming events and tasks on your schedule.</p>",
+            "position": "left"
+        },
+        {
+            "element": "#step8",
+            "intro": "<strong>Settings</strong><p>Change system and account settings like social accounts, payment information, breed chain events, currency, weight units, and much more.</p>",
+            "position": "left"
+        },
+		{
+            "intro": "<p class='text-center'>This is the end of the Tour. <br>Click the Done button below to return to the Hutch Dashboard.</p>"
+        }
+    ]
+}
